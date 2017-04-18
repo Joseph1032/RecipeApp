@@ -1,0 +1,122 @@
+body {
+	background-color: #95c1d6;
+}
+.container {
+	margin:auto;
+	width:700px;
+	border:1px solid gray;
+}
+h4 {
+	margin-left: 40px; 
+	color:gray;
+}
+#status {
+	margin-top: 20%;
+	margin-left: 58%;
+}
+#name {
+	float:right;
+	margin-right: 5%;
+}
+#meal {
+	margin-left: 5%;
+	height:40px;
+	width:150px;
+}
+#directions {
+	float:right;
+	margin-right: 4%;
+	margin-top: -6%;
+}
+#degree {
+	height:40px;
+}
+#paragraph {
+	margin-left: 5%;
+	margin-top: 8%;
+	color:gray;
+}
+#serving {
+	float:right;
+	margin-right: 15%;
+	margin-top: -9%;
+}
+ul {
+	display:flex;
+}
+li {
+	border:1px solid gray;
+	height:120px;
+	width:125px;
+	margin:15px;
+	list-style:none;
+	line-height: 120px;
+	text-align: center;
+	position:relative;
+}
+.nav {
+	margin-left: 4%;
+	color:gray;
+}
+button {
+	cursor: pointer;
+}
+input {
+	height:50px;
+	margin:5px;
+	margin-left: 5%;
+	margin-top: 3%;
+	border-radius: 5px;
+	background-color: #95c1d6;
+}
+select {
+	height:50px;
+	margin:5px;
+	margin-left: 25%;
+	margin-top: -8%;	
+	display:flex;
+	background-color: #95c1d6;
+}
+#ingredients {
+	float:right;
+	margin-right: 14%;
+	margin-top: -8%;
+	width:300px;
+}
+#add {
+	float:right;
+	margin-top: -8%;
+	margin-right: 5%;
+	height:50px;
+	width:55px;
+}
+textarea {
+	height:100px;
+	width:628px;
+	display:block;
+	margin-left: 35px;
+	background-color: #95c1d6;
+}
+#line {
+	width:555px;
+	border:1px solid gray;
+	margin-left: 15%;
+	margin-top: -4%;
+}
+#lineTwo {
+	width:538px;
+	border:1px solid gray;
+	margin-top: -4%;
+	margin-left: 18%;
+}
+#save {
+	margin-left: 79%;
+	margin-top: -1%;
+	height:35px;
+}
+#more {
+	height:35px;
+	margin-left: 85%;
+	margin-top: 2%;
+	margin-bottom: 5%;
+}

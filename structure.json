@@ -1,0 +1,38 @@
+{
+	"recipes": [
+		{
+			"id":1,
+			"name":"foo",
+			"by":"chef name",
+			"type":"breakfast",
+			"prepTime":"",
+			"cookTime":"",
+			"cookTemp":"",
+			"tempType":"F",
+			"servingAmount":"",
+			"servingType":"",
+			"photo":"",
+			"status":"public"
+		}
+	],
+	"steps": [
+		{
+			"id":1,
+			"recipeId":1,
+			"step":1,
+			"amount":2,
+			"unit":"cups",
+			"ingredientId":1,
+			"directions":"string of directions"
+		}
+	],
+	"ingredients": [
+		{
+			"id":1,
+			"stepId":1,
+			"amount":2,
+			"unit":"cups",
+			"ingredient":"Bread Flour"
+		}
+	]
+}
